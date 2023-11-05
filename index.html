@@ -3,65 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Health Tracker</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Your Health and Fitness Tracker</title>
+    <link rel="stylesheet" href="/styles.css"> 
+    <style>
+        body {
+            background-image: url(/asset/istockphoto-1125758374-1024x1024.jpg); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Health And Fitness Tracker</h1>
-    </header>
-    <section id="userProfileSection">
-        <h2>User Profile</h2>
-        <form id="userDetailsForm">
-            <label for="userName">Name:</label>
-            <input type="text" id="userName" required>
-            <label for="userAge">Age (years):</label>
-            <input type="number" id="userAge" required>
-            <label for="userWeight">Weight (kg):</label>
-            <input type="number" id="userWeight" step="0.01" required>
-            <label for="userHeight">Height (cm):</label>
-            <input type="number" id="userHeight" step="0.01" required>
-            <button type="submit">Save</button>
-            <button type="button" id="resetUserForm">Reset Form</button>
-        </form>
-        <div id="userProfile"></div>
-    </section>
-    <section id="exerciseLogSection">
-        <h2>Exercise Log</h2>
-        <div id="exerciseLog"></div>
-        <div class="input-section">
-            <label for="activity">Activity:</label>
-            <input type="text" id="activity" required>
-            <label for="duration">Duration (minutes):</label>
-            <input type="number" id="duration" step="0.01" required>
-            <label for="caloriesBurned">Calories Burned:</label>
-            <input type="number" id="caloriesBurned" step="0.01" required>
-            <button id="addExercise">Add Exercise</button>
-            <button id="resetExerciseForm" type="button">Reset Form</button>
-        </div>
-    </section>
-    <section id="nutritionLogSection">
-        <h2>Nutrition Log</h2>
-        <div id="nutritionLog"></div>
-        <div class="input-section">
-            <label for="meal">Meal:</label>
-            <input type="text" id="meal" required>
-            <label for="caloriesConsumed">Calories Consumed:</label>
-            <input type="number" id="caloriesConsumed" step="0.01" required>
-            <button id="addNutrition">Add Nutrition</button>
-            <button id="resetNutritionForm" type="button">Reset Form</button>
-        </div>
-    </section>
-    <section id="reportSection">
-        <h2>Health Report</h2>
-        <button id="generateReport">Generate Report</button>
-        <div id="report"></div>
-    </section>
-    <section id="healthTipsSection">
-        <h2>Health Tips</h2>
-        <button id="healthTipsButton">Get Health Tip</button>
-        <div id="healthTips"></div>
-    </section>
-    <script src="/app.js"></script>
+    <h1>Your Health and Fitness Tracker</h1>
+    <form id="userDetailsForm">
+        <h2>User Details</h2>
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" required>
+        <br>
+        <label for="userAge">Age:</label>
+        <input type="number" id="userAge" required>
+        <br>
+        <label for="userWeight">Weight (kg):</label>
+        <input type="number" id="userWeight" required>
+        <br>
+        <label for="userHeight">Height (cm):</label>
+        <input type="number" id="userHeight" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="userProfile"></div>
+
+    <h2>Exercise Log</h2>
+    <input type="text" id="activity" placeholder="Activity">
+    <input type="number" id="duration" placeholder="Duration (minutes)">
+    <input type="number" id="caloriesBurned" placeholder="Calories Burned">
+    <button id="addExercise">Add Exercise</button>
+    <div id="exerciseLog"></div>
+
+    <h2>Nutrition Log</h2>
+    <input type="text" id="meal" placeholder="Meal">
+    <input type="number" id="caloriesConsumed" placeholder="Calories Consumed">
+    <button id="addNutrition">Add Nutrition</button>
+    <div id="nutritionLog"></div>
+
+    <h2>Health Report</h2>
+    <button id="generateReport">Generate Report</button>
+    <div id="report"></div>
+
+    <h2>Health Tips</h2>
+    <div id="healthTips"></div>
+
+    <script src="/app.js"></script> 
 </body>
 </html>
