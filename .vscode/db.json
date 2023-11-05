@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 30,
+        "weight": 70,
+        "height": 175
+      }
+    ],
+    "exerciseLogs": [
+      {
+        "id": 1,
+        "userId": 1,
+        "activity": "Running",
+        "duration": "30 minutes",
+        "caloriesBurned": 300
+      }
+    ],
+    "nutritionLogs": [
+      {
+        "id": 1,
+        "userId": 1,
+        "meal": "Breakfast",
+        "caloriesConsumed": 400
+      }
+    ]
+  }
+  

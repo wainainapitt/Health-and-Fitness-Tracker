@@ -1,0 +1,116 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebeb;
+    text-align: center;
+    margin: 0;
+    background-image: linear-gradient(180deg, #ff9999, #ff66cc); /* Gradient background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    padding: 20px 0;
+    font-size: 2em; /* Larger font size */
+}
+
+/* User Profile section */
+#userProfile {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Log sections */
+#exerciseLog, #nutritionLog {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Report section */
+#report {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 5px; /* Increased margin and added padding */
+    font-size: 1em; /* Larger font size */
+    transition: background-color 0.3s; /* Smooth button hover transition */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Health Tips */
+#healthTips {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #efff87;
+    border: 1px solid #dbd94f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    margin: 10px 0;
+    padding: 10px; /* Increased padding for inputs */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Log entry styles */
+.log-entry {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.log-entry p {
+    margin: 0;
+}

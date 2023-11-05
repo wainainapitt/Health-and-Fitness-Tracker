@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Health And Fitness Tracker</h1>
+    </header>
+    <section id="userProfileSection">
+        <h2>User Profile</h2>
+        <form id="userDetailsForm">
+            <label for="userName">Name:</label>
+            <input type="text" id="userName" required>
+            <label for="userAge">Age (years):</label>
+            <input type="number" id="userAge" required>
+            <label for="userWeight">Weight (kg):</label>
+            <input type="number" id="userWeight" step="0.01" required>
+            <label for="userHeight">Height (cm):</label>
+            <input type="number" id="userHeight" step="0.01" required>
+            <button type="submit">Save</button>
+            <button type="button" id="resetUserForm">Reset Form</button>
+        </form>
+        <div id="userProfile"></div>
+    </section>
+    <section id="exerciseLogSection">
+        <h2>Exercise Log</h2>
+        <div id="exerciseLog"></div>
+        <div class="input-section">
+            <label for="activity">Activity:</label>
+            <input type="text" id="activity" required>
+            <label for="duration">Duration (minutes):</label>
+            <input type="number" id="duration" step="0.01" required>
+            <label for="caloriesBurned">Calories Burned:</label>
+            <input type="number" id="caloriesBurned" step="0.01" required>
+            <button id="addExercise">Add Exercise</button>
+            <button id="resetExerciseForm" type="button">Reset Form</button>
+        </div>
+    </section>
+    <section id="nutritionLogSection">
+        <h2>Nutrition Log</h2>
+        <div id="nutritionLog"></div>
+        <div class="input-section">
+            <label for="meal">Meal:</label>
+            <input type="text" id="meal" required>
+            <label for="caloriesConsumed">Calories Consumed:</label>
+            <input type="number" id="caloriesConsumed" step="0.01" required>
+            <button id="addNutrition">Add Nutrition</button>
+            <button id="resetNutritionForm" type="button">Reset Form</button>
+        </div>
+    </section>
+    <section id="reportSection">
+        <h2>Health Report</h2>
+        <button id="generateReport">Generate Report</button>
+        <div id="report"></div>
+    </section>
+    <section id="healthTipsSection">
+        <h2>Health Tips</h2>
+        <button id="healthTipsButton">Get Health Tip</button>
+        <div id="healthTips"></div>
+    </section>
+    <script src="/app.js"></script>
+</body>
+</html>
