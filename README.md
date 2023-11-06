@@ -24,6 +24,11 @@ Features
 - Health Tips:*Access a repository of health and fitness tips to help you make informed decisions about your well-being. Knowledge is power, and these tips can guide you in leading a healthier life.
 Keep fit always,word hard for a better lifestyle
 
+Here is a link to the page;
+http://127.0.0.1:5501/index.html#userProfile
+
+
+
 
    
 
