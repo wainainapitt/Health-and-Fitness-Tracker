@@ -22,6 +22,7 @@ Features
 - Health Report:Generate a comprehensive health report at the click of a button. This report includes your Body Mass Index (BMI) and categorizes your health status based on BMI values. Whether you're underweight, normal, overweight, or obese, you'll have a clear understanding of your health.
 
 - Health Tips:*Access a repository of health and fitness tips to help you make informed decisions about your well-being. Knowledge is power, and these tips can guide you in leading a healthier life.
+Keep fit always,word hard for a better lifestyle
 
 
    
