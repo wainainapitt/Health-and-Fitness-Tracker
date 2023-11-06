@@ -5,76 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Health and Fitness Tracker</title>
     <link rel="stylesheet" href="/styles.css">
-    <style>
-        body {
-            background-image: url(/asset/istockphoto-1125758374-1024x1024.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav h1 {
-            margin: 0;
-            padding: 0;
-        }
-        nav ul {
-            list-style: none;
-            text-align: center;
-        }
-        nav li {
-            display: inline;
-            margin: 0 10px;
-        }
-        nav a {
-            text-decoration: none;
-            color: #fff;
-        }
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #333;
-            min-width: 160px;
-            z-index: 1;
-        }
-        .dropdown-content a {
-            color: #fff;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-        .dropdown-content a:hover {
-            background-color: #555;
-        }
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-    </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav>
         <h1>Your Health and Fitness Tracker</h1>
         <ul>
+            <!-- Navigation Links -->
             <li><a href="#userProfile">User Profile</a></li>
             <li><a href="#exerciseLog">Exercise Log</a></li>
             <li><a href="#nutritionLog">Nutrition Log</a></li>
             <li><a href="#report">Health Report</a></li>
             <li><a href="#healthTips">Health Tips</a></li>
+            <!-- Dropdown Menu - Contact -->
             <li class="dropdown">
                 <a class="dropbtn">Contact</a>
                 <div class="dropdown-content">
                     <a href="mailto:pngugi.wainaina@gmail.com">Email: pngugi.wainaina@gmail.com</a>
-                    <a href="tel:0718000000">Phone: 0718 000 000</a>
+                    <a href="tel:0718000000">Mobile: 0718 000 000</a>
                 </div>
             </li>
+            <!-- Dropdown Menu - Exercises -->
             <li class="dropdown">
                 <a class="dropbtn">Exercises</a>
                 <div class="dropdown-content">
@@ -92,7 +43,7 @@
         </ul>
     </nav>
 
-    
+    <!-- User Details Form -->
     <form id="userDetailsForm">
         <h2>User Details</h2>
         <label for="userName">Name:</label>
@@ -110,8 +61,10 @@
         <button type="submit">Submit</button>
     </form>
 
+    <!-- User Profile Display -->
     <div id="userProfile"></div>
 
+    <!-- Exercise Log -->
     <h2>Exercise Log</h2>
     <input type="text" id="activity" placeholder="Activity">
     <input type="number" id="duration" placeholder="Duration (minutes)">
@@ -119,19 +72,23 @@
     <button id="addExercise">Add Exercise</button>
     <div id="exerciseLog"></div>
 
+    <!-- Nutrition Log -->
     <h2>Nutrition Log</h2>
     <input type="text" id="meal" placeholder="Meal">
     <input type="number" id="caloriesConsumed" placeholder="Calories Consumed">
     <button id="addNutrition">Add Nutrition</button>
     <div id="nutritionLog"></div>
 
+    <!-- Health Report Generation -->
     <h2>Health Report</h2>
     <button id="generateReport">Generate Report</button>
     <div id="report"></div>
 
+    <!-- Health Tips Section -->
     <h2>Health Tips</h2>
     <div id="healthTips"></div>
 
+    <!-- JavaScript File Link -->
     <script src="/app.js"></script>
 </body>
 </html>
