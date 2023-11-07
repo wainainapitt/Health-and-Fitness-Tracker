@@ -1,4 +1,6 @@
 Title : Health and Fitness Tracker
+
+
 Author: Peter Wainaina
 
 Intoduction:
@@ -29,7 +31,8 @@ Features:
 Keep fit always,word hard for a better lifestyle
 
 Here is a link to the page;
-http://127.0.0.1:5501/index.html#userProfile
+
+https://wainainapitt.github.io/health-and-fitness-tracker/
 
 
 
