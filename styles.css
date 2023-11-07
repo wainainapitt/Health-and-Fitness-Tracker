@@ -10,7 +10,7 @@ body {
     text-align: center;
     margin: 0;
     background-image: linear-gradient(180deg, #ff9999, #ff66cc); /* Gradient background */
-    background-image: url(/asset/istockphoto-1125758374-1024x1024.jpg);
+    background-image: url(./asset/istockphoto-1125758374-1024x1024.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
